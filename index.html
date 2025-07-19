@@ -1,0 +1,101 @@
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎  <meta charset="UTF-8" />
+‎  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+‎  <title>ʀᴇᴅDʀᴀɢᴏɴ [ᴅғs] YouTube Downloader</title>
+‎  <style>
+‎    * {
+‎      margin: 0;
+‎      padding: 0;
+‎      box-sizing: border-box;
+‎      font-family: 'Segoe UI', sans-serif;
+‎    }
+‎
+‎    body {
+‎      background: linear-gradient(to right, #ffffff, #ffe5e5);
+‎      display: flex;
+‎      justify-content: center;
+‎      align-items: center;
+‎      min-height: 100vh;
+‎    }
+‎
+‎    .container {
+‎      background-color: #fff;
+‎      padding: 40px;
+‎      border-radius: 16px;
+‎      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+‎      width: 90%;
+‎      max-width: 480px;
+‎      text-align: center;
+‎      border: 2px solid #ff0000;
+‎    }
+‎
+‎    h1 {
+‎      color: #ff0000;
+‎      margin-bottom: 24px;
+‎      font-size: 28px;
+‎    }
+‎
+‎    input[type="text"] {
+‎      width: 100%;
+‎      padding: 15px;
+‎      border-radius: 10px;
+‎      border: 2px solid #ccc;
+‎      font-size: 16px;
+‎      margin-bottom: 20px;
+‎      outline: none;
+‎      transition: 0.3s;
+‎    }
+‎
+‎    input[type="text"]:focus {
+‎      border-color: #ff0000;
+‎    }
+‎
+‎    button {
+‎      width: 100%;
+‎      padding: 15px;
+‎      font-size: 16px;
+‎      border: none;
+‎      border-radius: 10px;
+‎      background-color: #ff0000;
+‎      color: white;
+‎      cursor: pointer;
+‎      transition: background 0.3s;
+‎    }
+‎
+‎    button:hover {
+‎      background-color: #cc0000;
+‎    }
+‎
+‎    .footer {
+‎      margin-top: 25px;
+‎      font-size: 13px;
+‎      color: #888;
+‎    }
+‎
+‎    @media (max-width: 500px) {
+‎      .container {
+‎        padding: 30px 20px;
+‎      }
+‎
+‎      h1 {
+‎        font-size: 24px;
+‎      }
+‎    }
+‎  </style>
+‎</head>
+‎<body>
+‎  <div class="container">
+‎    <h1>📥 YouTube Video Downloader[ᴅ•ғ•s]</h1>
+‎    <form action="/download" method="POST">
+‎      <input type="text" name="url" placeholder="Paste YouTube video link here..." required />
+‎      <button type="submit">Download Video</button>
+‎    </form>
+‎    <div class="footer">
+‎      For educational use only · Powered by Node.js & ytdl-core
+‎    </div>
+‎  </div>
+‎</body>
+‎</html>
+‎
